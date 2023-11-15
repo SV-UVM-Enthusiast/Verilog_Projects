@@ -1,0 +1,28 @@
+# End time: 11:16:28 on Jan 22,2023, Elapsed time: 0:01:19
+# Errors: 0, Warnings: 0
+# vsim tb -l comp.log 
+# Start time: 11:16:28 on Jan 22,2023
+# Loading work.tb
+# Loading work.spi_ctrl
+#                  385 : addr_collect=d3
+#                  409 : data_collect=46
+#                  433 : addr_collect=d4
+#                  457 : data_collect=47
+#                  481 : addr_collect=d5
+#                  505 : data_collect=48
+#                  695 : addr_collect=d6
+#                  719 : data_collect=49
+#                  743 : addr_collect=d7
+#                  767 : data_collect=4a
+#                  915 : addr_collect=d8
+#                  939 : data_collect=4b
+#                  963 : addr_collect=d9
+#                  987 : data_collect=4c
+# ** Note: $finish    : tb_spi_ctrl.v(76)
+#    Time: 1405 ps  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb_spi_ctrl.v line 76
+quit -sim
+# End time: 11:17:16 on Jan 22,2023, Elapsed time: 0:00:48
+# Errors: 0, Warnings: 0
+quit
